@@ -1,0 +1,95 @@
+@import "./variables.scss";
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Marck+Script&display=swap");
+
+.chooseAddress {
+  margin: auto;
+  margin-top: 5rem;
+  padding: 1rem 0;
+}
+.addressCard {
+  border-radius: 1rem;
+  // box-shadow: 2px 2px 7px gray;
+}
+
+.addNewProductBtn {
+  width: 200px;
+  display: inline-block;
+  margin-top:4rem;
+}
+
+.button {
+  width: 50%;
+  margin: auto;
+}
+.card {
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+.selected {
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 1;
+  width: 60px;
+  height: 60px;
+  text-align: right;
+  border-right: 2px solid $primary;
+  border-top: 2px solid $primary;
+
+  svg {
+    position: absolute;
+    right: -10px;
+    top: -10px;
+    background-color: #fff;
+  }
+}
+
+.postCard {
+  // background-image: url("../public/imgs/hamper-imgs/pc2.png");
+  // background-size: 300px 100px;
+  font-family: "Amatic SC", cursive;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .postCardTitle {
+    margin-top: 6rem;
+    text-align: center;
+    font-size: 3rem;
+  }
+}
+
+.alignRight {
+  margin-top: 1.5rem;
+  align-items: flex-end;
+  font-family: "Marck Script", cursive;
+
+  .postCardTitle {
+    margin-top: 1rem;
+    text-align: center;
+    font-size: 2rem;
+  }
+}
+
+// .form {
+//   border: 1px solid green;
+// }
+
+.input {
+  background-color: transparent;
+  textarea,
+  input {
+    background-color: transparent;
+    font-size: 1rem;
+  }
+  input:focus {
+    background-color: transparent;
+  }
+  textarea:focus {
+    background-color: transparent;
+  }
+}

@@ -1,0 +1,93 @@
+.loading-card {
+  height: 320px;
+  position: relative;
+  .inner {
+    height: 245px;
+    overflow: hidden;
+    background: #000;
+    position: relative;
+
+    // Animation
+    animation-duration: 1.7s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-name: placeholderAnimate;
+    background: $gray-200;
+    background: linear-gradient(
+      to right,
+      $gray-200 2%,
+      $gray-100 18%,
+      $gray-200 33%
+    );
+    background-size: 1300px;
+    .white {
+      position: absolute;
+      height: 15px;
+      background-color: #fff;
+      left: 0;
+      right: 0;
+    }
+    .one {
+      top: 160px;
+    }
+    .two {
+      top: 200px;
+      height: 5px;
+    }
+    .three {
+      top: 200px;
+      height: 25px;
+      right: auto;
+      width: 20px;
+    }
+    .four {
+      top: 200px;
+      height: 25px;
+      left: auto;
+      right: 0;
+      width: 20px;
+    }
+    .five {
+      top: 225px;
+      height: 5px;
+    }
+    .six {
+      top: 230px;
+      height: 15px;
+      right: auto;
+      width: 40px;
+    }
+    .seven {
+      top: 230px;
+      height: 15px;
+      left: auto;
+      right: 0;
+      width: 40px;
+    }
+  }
+  .loading-btn {
+    position: absolute;
+    bottom: 0;
+    left: 15px;
+    right: 15px;
+    height: 38px;
+    border-radius: 50rem;
+    background: $gray-200;
+    background: linear-gradient(
+      to right,
+      $gray-200 2%,
+      $gray-100 18%,
+      $gray-200 33%
+    );
+  }
+}
+
+@keyframes placeholderAnimate {
+  0% {
+    background-position: -650px 0;
+  }
+  100% {
+    background-position: 650px 0;
+  }
+}

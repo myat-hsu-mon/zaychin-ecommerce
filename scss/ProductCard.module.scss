@@ -1,0 +1,40 @@
+.horizontalCard {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.productTitle {
+  height: 72px;
+  margin-top: 15px;
+  line-height: 1.5rem;
+  overflow: hidden;
+  font-weight: 700;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 3;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+
+.horizontal {
+  display: flex;
+  align-items: center;
+
+  .productTitle {
+    margin-top: 0;
+    margin-right: 15px;
+  }
+
+  img {
+    width: 80px;
+    height: 80px;
+    margin-right: 15px;
+    margin-top: 15px;
+  }
+
+  h6 {
+    height: auto !important;
+    margin-bottom: 0;
+  }
+}
+

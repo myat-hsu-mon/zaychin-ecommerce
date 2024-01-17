@@ -1,0 +1,17 @@
+.device {
+  // height: 600px;
+  width: 260px;
+  background-color: #fff;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.08);
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 15px;
+  padding-bottom: 30px;
+  border-radius: 30px;
+  margin: 0 auto;
+
+  img {
+    max-width: 100%;
+    border-radius: 20px;
+  }
+}

@@ -1,0 +1,14 @@
+@import "./variables.scss";
+
+.status-pending {
+  background-color: $warning;
+}
+.status-approved {
+  background-color: $blue;
+}
+.status-delivering {
+  background-color: $info;
+}
+.status-completed {
+  background-color: $success;
+}

@@ -1,0 +1,29 @@
+@import './variables.scss';
+
+.productName {
+  // font-size: 1.5rem;
+  font-size: 1.5rem;
+}
+
+.relatedProducts {
+  margin-top: 30px;
+}
+.openInAppBtn {
+  background-color: $primary;
+  display: block;
+  width: 140px;
+  border-radius: $border-radius-lg;
+  text-align: center;
+  padding: 5px;
+  position: fixed;
+  bottom: 100px;
+  z-index: 9999;
+  left: 50%;
+  margin-left: -70px;
+  box-shadow: $box-shadow;
+
+  a {
+    color: #fff;
+    display: block;
+  }
+}

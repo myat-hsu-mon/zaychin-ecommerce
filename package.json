@@ -1,0 +1,35 @@
+{
+  "name": "zcpwa",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "bootstrap": "^4.5.0",
+    "firebase": "^7.18.0",
+    "js-cookie": "^2.2.1",
+    "lodash": "^4.17.19",
+    "moment": "^2.27.0",
+    "myanmar-phonenumber": "^0.3.2",
+    "next": "^9.4.4",
+    "node-fetch": "^2.6.0",
+    "randexp": "^0.5.3",
+    "react": "^16.13.1",
+    "react-alice-carousel": "^1.19.3",
+    "react-bootstrap": "^1.1.1",
+    "react-bootstrap-icons": "^1.0.3-alpha5",
+    "react-dom": "^16.13.1",
+    "react-infinite-scroll-component": "^5.0.5",
+    "react-lazyload": "^3.0.0",
+    "react-otp-input": "^2.0.2",
+    "react-responsive-carousel": "^3.2.9",
+    "recoil": "0.0.10",
+    "s": "^1.0.0",
+    "sass": "^1.26.10",
+    "slug": "^3.3.2"
+  }
+}

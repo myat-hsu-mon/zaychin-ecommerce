@@ -1,0 +1,95 @@
+@import '../scss/variables.scss';
+// .container{
+//   width: 1200px;
+//   margin: auto;
+//   margin-bottom: 5rem;
+//   margin-top: 3rem;
+// }
+
+// .timeline{
+//   counter-reset: test 20;
+//   position: relative;
+// }
+
+// .timeline li{
+//   list-style: none;
+//   float: left;
+//   width: 33.3333%;
+//   position: relative;
+//   text-align: center;
+//   text-transform: uppercase;
+// }
+
+// .timeline:nth-child(1){
+//   color: #4caf50;
+// }
+
+// .timeline li:before{
+//   counter-increment: test;
+//   content: counter(test);
+//   width: 50px;
+//   height: 50px;
+//   border: 3px solid #4caf50;
+//   border-radius: 50%;
+//   display: block;
+//   text-align: center;
+//   line-height: 50px;
+//   margin: 0 auto 10px auto;
+//   background: #fff;
+//   color: #000;
+//   transition: all ease-in-out .3s;
+//   cursor: pointer;
+// }
+
+// .timeline li:after{
+//   content: "";
+//   position: absolute;
+//   width: 100%;
+//   height: 1px;
+//   background-color: grey;
+//   top: 25px;
+//   left: -50%;
+//   z-index: -999;
+//   transition: all ease-in-out .3s;
+// }
+
+// .timeline li:first-child:after{
+//   content: none;
+// }
+// .timeline li.activeTl{
+//   color: #555555;
+// }
+// .timeline li.activeTl:before{
+//   background: #4caf50;
+//   color: #F1F1F1;
+// }
+
+// .timeline li.activeTl + li:after{
+//   background: #4caf50;
+// }
+
+.container {
+  display: flex;
+  margin: 0.5rem;
+  margin-bottom: 1rem;
+}
+.children {
+  border: none;
+  height: 0.4rem;
+  flex: 1;
+  margin: 0.3rem;
+  margin-top: 0.5rem;
+  border-radius: 0.5rem;
+  background-color: rgba(0, 199, 110, 0.3);
+}
+
+.active {
+  background-color: rgba(0, 199, 110, 1);
+}
+// .children::before{
+//   content:'1';
+//   width:20px;
+//   height: 20px;
+//   border-radius: 100%;
+//   border:1px solid black;
+// }

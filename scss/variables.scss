@@ -1,0 +1,25 @@
+$font-family-sans-serif: Padauk, "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font-size-base: 1rem;
+$border: #ebedef;
+$text-color: #545a65;
+$black: #475669;
+$padding-base-vertical: 6px;
+$padding-base-horizontal: 12px;
+$border-radius-lg: 10px;
+$gray-100: #eaedef;
+$primary: #05c76e;
+$headings-line-height: 1.3;
+$card-cap-bg: $gray-100;
+$body-color: $text-color;
+$primary-gradient: linear-gradient(
+  145deg,
+  rgba(137, 213, 0, 1) 0%,
+  rgba(0, 199, 110, 1) 100%
+);
+$input-btn-focus-box-shadow: none;
+$input-focus-border-color: $gray-100;
+$enable-gradients: true;
+// $card-border-width: 0;
+@import "~bootstrap/scss/_functions";
+@import "~bootstrap/scss/_variables";
+
